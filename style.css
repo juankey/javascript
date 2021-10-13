@@ -1,0 +1,31 @@
+:root{
+    --primer-color:#06500C;
+    --segundo-color:#008000;
+    --tercer-color:#568203;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: var(--primer-verde);
+    color:whitesmoke;
+    background:peru;
+    height: 10rem;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.box-1{
+    background-color: var(--primer-color);
+    width: 50rem;
+    height: 100%;
+}
+.box-2{
+    background-color: var(--segundo-color);
+    width: 50rem;
+}
+.box-3{
+    background-color: var(--tercer-color);
+    width: 50rem;
+}
